@@ -1,0 +1,82 @@
+#player {
+/*	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	height: 300px;
+	width: 300px;
+	border-radius: 300px;
+	margin: auto;
+/* 	background-color: rgba(24,23,26,0.9); */
+}
+
+@keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg); 
+		-moz-transform: rotate(0deg); 
+		-o-transform: rotate(0deg); 
+	}
+	to {
+		-webkit-transform: rotate(360deg); 
+		-moz-transform: rotate(360deg); 
+		-o-transform: rotate(360deg); 
+	}
+}
+
+@-moz-keyframes rotate {
+	from {
+			-webkit-transform: rotate(0deg); 
+			-moz-transform: rotate(0deg); 
+			-o-transform: rotate(0deg); 
+	}
+	to {
+			-webkit-transform: rotate(360deg); 
+			-moz-transform: rotate(360deg); 
+			-o-transform: rotate(360deg); 
+	}
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg); 
+		-moz-transform: rotate(0deg); 
+		-o-transform: rotate(0deg); 
+	}
+	to {
+		-webkit-transform: rotate(360deg); 
+		-moz-transform: rotate(360deg); 
+		-o-transform: rotate(360deg); 
+	}
+}
+
+@-o-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg); 
+		-moz-transform: rotate(0deg); 
+		-o-transform: rotate(0deg); 
+	}
+	to {
+		-webkit-transform: rotate(360deg); 
+		-moz-transform: rotate(360deg); 
+		-o-transform: rotate(360deg); 
+	}
+}
+
+#photo div{
+	height: 220px;
+	width: 220px;
+	border-radius: 220px;
+	background-image: url(../images/person1.jpg);
+	background-position:center;
+	background-size: 100% 100%;
+	margin: auto;
+/*	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	animation: rotate 21s linear infinite;
+	-moz-animation: rotate 21s linear infinite;
+	-webkit-animation: rotate 21s linear infinite;
+	-o-animation: rotate 21s linear infinite;
+}

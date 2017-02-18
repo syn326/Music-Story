@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music&Story</title>
+	<!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+<link rel="stylesheet" type="text/css" href="css/1024.css">
+<link rel="stylesheet"  href="css/music&story.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--        播放器css -->
+<link rel="stylesheet" href="css/audio_player/audioplayer.css" />
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <!-- 引入 Bootstrap -->
+      <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
+        <script>
+            /*
+
+                VIEWPORT BUG FIX
+                iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+            */
+            (function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+        </script>
+
+
+</head>
+<body>
+
+<div class="container-fluid">
+<!-- 	标题 -->
+	<header class="navbar-fixed-top">
+	<h1 class="text-center">Music & Story</h1>
+	</header>
+	<div class="row">
+		<div id="player" class="col-lg-4   col-md-4    col-sm-12 col-xs-12 col-xxs-12 pull-left">
+<!-- 			播放器	 -->
+		<div id="photo"> 
+        <div></div>     
+        </div>
+        <div id="wrapper">
+            <audio preload="auto" >
+                <source src="MP3/ONE.mp3">
+                <source src="Distance.mp3">
+                <source src="OnlyWish.mp3">
+                <source src="WeddingBell.mp3">
+            </audio>
+<!--             <script src="js/jquery.js"></script>
+            <script src="js/audioplayer.js"></script>
+            <script>$( function() { $( 'audio' ).audioPlayer(); } );</script> -->
+        </div>
+
+        </div>
+		</div>
+		<div id="right" class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-xxs-12 pull-right">
+		<ul class="nav nav-tabs ">
+	<li class="active"><a href="#">Home</a></li>
+	<li><a href="#">Music</a></li>
+	<li><a href="single/single.html">Story</a></li>
+	<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+			About <span class="caret"></span>
+		</a>
+		<ul class="dropdown-menu">
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Terms</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Contace</a></li>
+		</ul>
+	</li>
+</ul>
+    <div class="container-fluid">
+        <div class="row fh5co-post-entry">
+            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_1.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Food &amp; Drink</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">We Eat and Drink All Night</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-4 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_2.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Food &amp; Drink</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Beef Steak at Guatian Restaurant</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <div class="clearfix visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_3.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">An Overlooking River at the East Cost</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_4.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">A Wildlife In The Mountain of India</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_5.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">We Took A Photo</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_6.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">A Modernize Huge and Beautiful Building</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+            
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_7.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Food &amp; Drinks</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Enjoying the Native Juice Drink in Brazil</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_8.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Boat Travel in The Vietnam River</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            
+
+
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_9.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">We Took a Photo</a></h2>
+                <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+            </article>
+            <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_10.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Star Trails</a></h2>
+                <span class="fh5co-meta fh5co-date"> ‎October ‎9th, ‎2016</span>
+            </article>
+            <div class="clearfix visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_11.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a>
+                <h2 class="fh5co-article-title"><a href="single/single.html">We Took a Photo</a></h2>
+                <span class="fh5co-meta fh5co-date"> ‎‎OCTOBER ‎21, ‎2016</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_12.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Snow</a></h2>
+                <span class="fh5co-meta fh5co-date">‎December ‎8th, ‎2016</span>
+            </article>
+            <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_13.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Snow</a></h2>
+                <span class="fh5co-meta fh5co-date">‎November ‎21th, ‎2016</span>
+            </article>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_14.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Travel</a>, <a href="single/single.html">Style</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">A Fallen Leaf</a></h2>
+                <span class="fh5co-meta fh5co-date">‎November ‎21th, ‎2016</span>
+            </article>
+            <div class="clearfix visible-xs-block"></div>
+            <article class="col-lg-4 col-md-4 col-sm-3 col-xs-6 col-xxs-12 animate-box">
+                <figure>
+                    <a href="single/single.html"><img src="images/pic_15.jpg" alt="Image" class="img-responsive"></a>
+                </figure>
+                <span class="fh5co-meta"><a href="single/single.html">Photography</a></span>
+                <h2 class="fh5co-article-title"><a href="single/single.html">Snow</a></h2>
+                <span class="fh5co-meta fh5co-date">November ‎21st, ‎2016</span>
+            </article>
+            
+            <div class="clearfix visible-xs-block"></div>
+        </div>
+    </div>
+	</div>
+
+</div>
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">  
+
+        <div class="twelve columns content group col-lg-8 col-lg-offset-4  col-md-8  col-sm-4 col-xs-12 col-xs-offset-0 col-xxs-12 col-xxs-offset-0">
+
+                <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook-square fa-4x"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter-square fa-4x"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus-square fa-4x"></i></a></li>               
+               <li><a href="#"><i class="fa fa-youtube-play fa-4x"></i></a></li>
+               <li><a href="#"><i class="fa fa-vimeo-square fa-4x"></i></a></li>
+               <li><a href="#"><i class="fa fa-flickr fa-4x"></i></a></li>               
+               <li><a href="#"><i class="fa fa-skype fa-4x"></i></a></li>
+            </ul>
+
+    
+
+      </div> <!-- end row -->
+
+    </footer> <!-- end footer -->
+    <div id="preloader" style="display: none;"> 
+    	<div id="loader" style="display: none;"></div>
+    </div>
+
+</div>
+<!-- javascript -->
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/1024.js"></script>
+        <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+        <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+        <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+<!--     <script src="js/main.js"></script> -->
+            <script src="js/jquery.js"></script>
+            <script src="js/audioplayer.js"></script>
+            <script>$( function() { 
+                        $( 'audio' ).audioPlayer();
+                    });
+                    
+            </script>
+
+</body>
+</html>
